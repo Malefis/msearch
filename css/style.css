@@ -1,6 +1,8 @@
 body {
-  background-image: url("https://images.unsplash.com/photo-1483347756197-71ef80e95f73?dpr=1&auto=compress,format&fit=crop&w=1500&h=&q=80&cs=tinysrgb&crop=");
-	font-family: 'Ubuntu', sans-serif;
+  /*background-image: url("https://images.unsplash.com/photo-1483347756197-71ef80e95f73?dpr=1&auto=compress,format&fit=crop&w=1500&h=&q=80&cs=tinysrgb&crop=");*/
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://source.unsplash.com/random/1920x1080');
+  font-family: 'Ubuntu', sans-serif;
+
 }
 .ccprices{
 	color: white;
@@ -11,34 +13,25 @@ body {
 }
 .searchboxes{
     width: 100%;
-    opacity: 0.6;
+    /*opacity: 0.6;*/
+    background-color: transparent;
     font-weight: bold;
-    border-radius: 25px;
     text-align: center;
-    margin: 0;
+    margin-top:10px ;
     font-family: 'Ubuntu' sans-serif;
-}
-.searchboxes:hover{
-    opacity: 1;
-    font-weight: bold;
+    color: white;
 }
 .clickboxes{
-    opacity: 0.6;
     font-weight: bold;
-    background-color: white;
-    border-radius: 25px;
-    margin-top: 480px;
-    margin: 0;
+    background-color: transparent;
+    margin-top: 10px;
     width: 103.92px;
     text-align: left;
     font-family: 'Ubuntu' sans-serif;
+    color: white;
 }
 .clickboxes-div{
     text-align: left;
-}
-.clickboxes:hover{
-    opacity: 1;
-    font-weight: bold;
 }
 
 .vidbg {

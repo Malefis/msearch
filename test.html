@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="js/jquery-3.2.1.js"></script>
+  <script lang="javascript">
+  //$.ready(function () {
+    $.post("https://min-api.cryptocompare.com/data/price?fsym=ETH&tsyms=BTC,USD,EUR,GBP", function(data) {
+      alert(data)
+
+    })
+  //})
+  </script>
+</head>
+<body>
+</body>
+</html>

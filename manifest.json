@@ -1,0 +1,17 @@
+{
+"name": "MSearch",
+"description": "Just a cool extension that lets you search lots of different websites all from the same new tab :)",
+"version": "1.1.0",
+"manifest_version": 2,
+"content_security_policy": "script-src 'self' 'sha256-oFzBi9JZskUI5CKNOzVT1pIdO1IDvpoDY641Phtabik='",
+"icons": {
+"128": "chrome_logo.png"
+
+},
+ "chrome_url_overrides" : {
+  "newtab":"index.html"
+},
+"permissions": [
+"https://min-api.cryptocompare.com/"
+]
+}

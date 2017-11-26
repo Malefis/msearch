@@ -1,7 +1,7 @@
 {
 "name": "MSearch",
 "description": "Just a cool extension that lets you search lots of different websites all from the same new tab :)",
-"version": "1.1.0",
+"version": "1.1.0.1",
 "manifest_version": 2,
 "content_security_policy": "object-src 'self' 'sha256-FmO81S18lWLAR5YjfqWZQYd+9BUG7eDZqh3Ax5qqR0U='",
 "icons": {

@@ -2,13 +2,15 @@
 <html>
   <head>
     <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
     <script src="js/coinhive.min.js" ></script>
     <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/main.js" charset="utf-8"></script>
   </head>
-  <div class="col-md-3">
+  <body onload="startTime()">
+  <div class="col-sm-3">
       <a href= "https://mail.google.com/mail/u/0/#inbox">
         <img src="assets/gmail_icon.png" width="36px" height="36px">
       </a>
@@ -17,14 +19,10 @@
        <img src="assets/g_drive_logo.png" width="36px" height="36px">
       </a>
       <br />
+      <h1 id="txt" class="txt"> </h1>
 </div>
-<div class="col-md-6">
+<div class="col-sm-6">
   <img class="center-block" src="assets/logo.png" alt="MsearchLogo" style="width:480px;height:270px;">
-      <form id="vb_yt_search-form" action="https://duckduckgo.com/" method="get" target="_blank">
-  <div class="col-xs-9">  <input name="q" type="text" maxlength="128" class="searchboxes" /> </div>
-    <div class="col-xs-3 clickboxes-div"><input type="submit" value="DuckDuckGo" class="clickboxes" /> </div>
-      </form>
-      <br />
   <form id="vb_yt_search-form" action="http://www.google.com/search" method="get" target="_blank">
     <div class="col-xs-9"> <input name="q" type="text" maxlength="128" class="searchboxes" /></div>
     <div class="col-xs-3 clickboxes-div"><input type="submit" value="Google" class="clickboxes" /></div>
@@ -36,6 +34,7 @@
  </a>
  </form>
  </div>
-<div class="col-md-3">
+<div class="col-sm-3">
+</div>
 </body>
 </html>

